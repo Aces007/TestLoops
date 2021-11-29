@@ -2,11 +2,11 @@ import string
 
 AskingForStatement = input("Enter your statement: ")
 print (AskingForStatement)
+
 words = 0
 vowels = 0
 consonants = 0
 split_AskingForStatement = AskingForStatement.split()
-CapitalLettersNaman = len(re.findall (r'[A-Z]', AskingForStatement))
 
 IlangSalita = len(split_AskingForStatement)
 
