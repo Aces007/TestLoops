@@ -1,4 +1,4 @@
-Statement = input("Enter your statment: ")
+Statement = input("Please enter your statement: ")
 
 
 vowels = 0
@@ -20,7 +20,6 @@ for elements in Statement:
 
 split_Statement = Statement.split()
 IlangSalita = len(split_Statement)
-
 
 
 print(("The statement contain:{}".format (IlangSalita) + " words"))
