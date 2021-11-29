@@ -13,9 +13,6 @@ split_AskingForStatement = AskingForStatement.split()
 IlangSalita = len(split_AskingForStatement)
 print("The statement contain:{}".format (IlangSalita) + " words")
 
-VowelsCapital = ["A", "E", "I", "O", "U"]
-VowelsLowercase = ['a', 'e', 'i', 'o', 'u']
-
 
 for words in AskingForStatement:
     if words == 'a' or words == 'e' or words == 'i' or words == 'o' or words == 'u':
