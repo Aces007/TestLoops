@@ -7,7 +7,6 @@ consonants = 0
 
 VowelsUppercase = ("A", "E", "I", "O", "U")
 VowelsLowercase = ("a", "e", "i", "o", "u")
-ConsonantsCaseInsensitive = Statement.lower()
 
 
 for elements in Statement:
@@ -25,5 +24,5 @@ IlangSalita = len(split_Statement)
 
 
 print(("The statement contain:{}".format (IlangSalita) + " words"))
-print (f"{vowels}")
-print (f"{consonants}")
+print (f"{vowels}" + " vowels")
+print (f"{consonants}" + " consonants")
